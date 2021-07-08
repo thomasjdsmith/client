@@ -1,0 +1,11 @@
+steps:
+- name: 'node'
+  entrypoint: npm
+  args: ['intall']
+ 
+- name: 'node'
+  entrypoint: 'npm'
+  args: ['test']
+- name: node
+  entrypoint: npm
+  args: ['npm', 'build']
